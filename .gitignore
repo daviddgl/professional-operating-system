@@ -13,6 +13,8 @@
 !AUTHORS.md
 !CONTACT.md
 !.gitignore
+!.github/
+!.github/**
 
 # Whitelist: scripts
 !scripts/
