@@ -4,7 +4,7 @@
 > **Owner:** [Your Name]  
 > **Version:** 2026.02  
 > **Last Updated:** [YYYY-MM-DD]  
-> **Portable:** Yes
+> **Portable:** Yes — command logic is context-independent
 
 ---
 
@@ -795,6 +795,10 @@ Which option should we proceed with?
 
 ---
 
+> **Also in this category:** `boardroom [topic]` — classified as Decision Support. Full definition below, after all other categories, for readability.
+
+---
+
 ## 🔧 MAINTENANCE COMMANDS
 
 ### `prep_refresh`
@@ -1034,15 +1038,13 @@ In this case, you're on v2026.02.
 
 ---
 
-## 🎙️ BOARDROOM COMMANDS
-
 ### `boardroom [topic]`
 
 **Trigger:** When you're uncertain how to handle a high-stakes management situation and want structured, adversarial input from multiple perspectives
 **Purpose:** Convene your virtual advisory council — activate the most relevant boardroom personas for the given topic, get each persona's take and probing questions, then synthesise the divergent views into a decision-ready output
 
 **OS Files to Read:**
-- `06_BOARDROOM/boardroom.md` — §1 Working Principles, §2 Manager's Chair, §3 All Personas
+- `06_BOARDROOM/boardroom.md` — §1 Persona Roster, §2 Working Principles, §3 Activation Logic, §5 Manager's Chair
 - `01_KERNEL/personal_dna.md` — Goals, Constraints & Fears, Avoidance Patterns
 - `01_KERNEL/manager_operating_system.md` — §12 Pressure Mode (check if session is stress-driven)
 

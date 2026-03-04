@@ -4,7 +4,7 @@
 > **Owner:** [Your Name]  
 > **Version:** 2026.02  
 > **Last Updated:** [YYYY-MM-DD]  
-> **Portable:** Yes
+> **Portable:** Yes — AI instructions are context-independent
 
 ---
 

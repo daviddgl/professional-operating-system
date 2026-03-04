@@ -4,7 +4,7 @@
 > **Owner:** [Your Name]  
 > **Version:** 2026.02  
 > **Last Updated:** [YYYY-MM-DD]  
-> **Portable:** Yes
+> **Portable:** Yes — travels with the manager across all contexts
 
 ---
 
@@ -25,19 +25,27 @@ This file is used when:
 
 **Purpose:** To resolve conflicts and guide execution using the Manager Operating System (MOS) files.
 
-## 0. Rule Zero: The Human Handshake (Default to Speak)
+### §0 — Rule Zero
 
-* **Principle:** This OS is a *decision-support* tool, not a decision-maker. It calculates trade-offs, but humans make the call.
-* **The Trigger:** If the rules below result in a logical conflict, ambiguity, or a "bad gut feeling," the system halts.
-* **The Action:**
-    1. Stop the async/logic flow.
-    2. **Speak:** Schedule a synchronous conversation.
-    3. **Goal:** Use the OS outputs (Pros/Cons) as the agenda, but decide face-to-face.
-* **Override Authority:** Any human can invoke Rule Zero at any time. It cannot be overridden by any other rule.
+The OS is a decision-SUPPORT tool. It does not make decisions.
+
+When OS rules produce any of the following:
+- Conflicting outputs from two or more gates
+- A recommendation that feels wrong in context
+- Ambiguity that cannot be resolved by re-reading the relevant files
+- A "bad gut feeling" that persists after analysis
+
+**Stop. Invoke Rule Zero. Have a synchronous human conversation.**
+
+Rule Zero supersedes all other rules. Any human can invoke it at any time, including
+the AI copilot if it detects unresolvable ambiguity. It cannot be overridden by
+any other rule in the OS.
+
+The action is always the same: talk to a human, directly, before deciding.
 
 ---
 
-## 1. The Hierarchy of Precedence (Order of Operations)
+### §1 — Hierarchy of Precedence (Order of Operations)
 
 When making a decision, apply constraints in this specific order (Local $\rightarrow$ Global):
 
@@ -51,7 +59,7 @@ When making a decision, apply constraints in this specific order (Local $\righta
     * *Why?* Long-term sustainability requires individual growth.
     * *Rule:* Match the task to the person's **"Player Card"** (Strengths/Goals).
 
-## 2. Interaction Rules (The API)
+### §2 — Interaction Rules (The API)
 
 ### Rule A: The "Override" Function
 
@@ -75,7 +83,7 @@ When making a decision, apply constraints in this specific order (Local $\righta
   * Ignore Capacity Contract Split.
   * Restore standard rules immediately after resolution.
 
-## 3. Execution Loops
+### §3 — Execution Loops
 
 ### The "New Task" Loop
 
@@ -88,7 +96,7 @@ graph TD
     D -- Yes --> F[Assign to Individual based on Player Card]
 ```
 
-## 4. Decision Speed (Reversibility Check)
+### §4 — Decision Speed (Reversibility Check)
 
 * **Reversible Decisions:** Make them fast. Don't ask for permission. Bias toward action.
 * **Irreversible Decisions:** Require a Spec and sign-off. If in doubt, invoke Rule Zero.
