@@ -1,0 +1,37 @@
+# Public repository policy: track only reusable Manager Operating System files.
+# Keep this allowlist strict so accidental private files are not published.
+*
+
+# Keep repository metadata and top-level docs
+!.gitignore
+!README.md
+!LICENSE
+!NOTICE
+!CHANGELOG.md
+!SETUP_WIZARD.md
+!ARCHITECTURE.md
+!CONTACT.md
+!AUTHORS.md
+!CONTRIBUTING.md
+!.github/
+!.github/**
+
+# Build and deployment scripts
+!scripts/
+!scripts/**
+
+# Publishable Manager Operating System structure
+!00_BOOT/
+!00_BOOT/**
+!01_KERNEL/
+!01_KERNEL/**
+!02_CONFIG/
+!02_CONFIG/**
+!03_DRIVERS/
+!03_DRIVERS/**
+!04_PROCESSES/
+!04_PROCESSES/**
+!05_COMMANDS/
+!05_COMMANDS/**
+!06_BOARDROOM/
+!06_BOARDROOM/**

@@ -1,0 +1,30 @@
+# Allow-list .gitignore — framework root
+# Everything is ignored unless explicitly whitelisted.
+
+*
+
+# Whitelist: root framework files
+!PROFESSION_SPEC.md
+!GENERATOR_PROMPT.md
+!README.md
+!CONTRIBUTING.md
+!CHANGELOG.md
+!LICENSE
+!AUTHORS.md
+!CONTACT.md
+!.gitignore
+
+# Whitelist: scripts
+!scripts/
+!scripts/**
+
+# Whitelist: reference implementations (all files within each reference)
+!references/
+!references/manager-os/
+!references/manager-os/**
+!references/coach-os/
+!references/coach-os/**
+
+# Re-ignore bundle output files inside references (never commit compiled bundles)
+references/*/bundle/*.md
+references/*/bundle/
