@@ -13,8 +13,10 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 ### Added
 
 ### Changed
+- Root `CONTRIBUTING.md` — merged detailed CHANGELOG requirements (example block, `version_upgrade` parsing note, releasing instructions) from deleted reference-level copies
 
 ### Removed
+- `references/coach-os/` and `references/manager-os/`: deleted `LICENSE`, `AUTHORS.md`, `CONTACT.md`, `NOTICE`, `CONTRIBUTING.md`, `.gitignore` — all redundant with root-level equivalents in the monorepo context. Standalone repos (`daviddgl/coach-operating-system`, `daviddgl/manager-operating-system`) retain their own copies.
 
 ### Migration Steps
 

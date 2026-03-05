@@ -1,5 +1,10 @@
 # Copilot Instructions — Professional Operating System Framework
 
+> **Audience:** Framework contributors and variant creators.
+> If you are an end user of a specific profession variant, open that
+> reference folder directly — its own `.github/copilot-instructions.md`
+> will load instead.
+
 ## What This Repository Is
 
 This repository is the **Professional Operating System (POS) Framework** — a meta-framework that defines the structural rules for building portable, markdown-based decision-support systems for any profession.

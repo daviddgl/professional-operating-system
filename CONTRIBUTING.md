@@ -33,7 +33,7 @@ Add a new fully-spec-compliant profession to `references/`. Requirements:
 
 **Every framework or reference implementation change must be documented in the appropriate `CHANGELOG.md` before committing.**
 
-- Changes to `PROFESSION_SPEC.md` or root files → document in root `CHANGELOG.md` (create if absent)
+- Changes to `PROFESSION_SPEC.md` or root files → document in root `CHANGELOG.md`
 - Changes to a reference implementation → document in that reference's `CHANGELOG.md`
 
 Use these categories:
@@ -42,7 +42,26 @@ Use these categories:
 - `### Removed` — Deprecated features, deleted content
 - `### Migration Steps` — Instructions for existing users upgrading (if breaking change)
 
-**Why this matters:** Profession OS users upgrade via the `version_upgrade` command, which reads `CHANGELOG.md` to apply updates while preserving their personal data. Missing entries = broken upgrades for real users.
+**Be specific and machine-readable.** The `version_upgrade` command parses `CHANGELOG.md` to help users apply updates while preserving their personal data. Missing entries = broken upgrades for real users.
+
+**Example (reference implementation change):**
+
+```markdown
+## [Unreleased]
+
+### Added
+- New §14 in `{profession}_operating_system.md` — Decision Delegation Framework
+- New command `health_check` in Execution category
+
+### Changed
+- Renamed §6 "Strategic Translation" → "Strategic Alignment" in roster file
+
+### Migration Steps
+1. Add §14 to `01_KERNEL/{profession}_operating_system.md` after §13
+2. Update roster file §6 header accordingly
+```
+
+**When releasing:** Move `[Unreleased]` content to a new versioned section (e.g., `## [2026.03] - 2026-03-01`) and create an empty `[Unreleased]` placeholder for next changes.
 
 ## Style Guidelines
 

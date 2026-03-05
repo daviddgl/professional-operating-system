@@ -18,6 +18,9 @@ The upgrade preserves all your existing data and only asks about new/changed sec
 
 ## [Unreleased]
 
+### Removed
+- `LICENSE`, `AUTHORS.md`, `CONTACT.md`, `NOTICE`, `CONTRIBUTING.md`, `.gitignore` — consolidated to monorepo root. These files live at the root of `daviddgl/professional-operating-system` and apply to all references. Standalone repo retains its own copies.
+
 > Changes documented here will be included in the next version.
 
 ### Added
