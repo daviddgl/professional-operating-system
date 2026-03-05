@@ -83,20 +83,69 @@ When making a decision, apply constraints in this specific order (Local $\righta
   * Ignore Capacity Contract Split.
   * Restore standard rules immediately after resolution.
 
-### §3 — Execution Loops
+### §3 — New Request Loop (Iteration Protocol)
 
-### The "New Task" Loop
+**Purpose:** Define how to handle a new work request, scope change, or opportunity through the 3-gate hierarchy — including what to do when a gate fails and how to re-enter the loop.
 
-```mermaid
-graph TD
-    A[New Request Arrives] --> B{Does Team have Capacity?}
-    B -- No, Ops exceeds Contract --> C[Reject/Negotiate based on Team OS]
-    B -- Yes --> D{Does it help current Company Goal?}
-    D -- No --> E[Deprioritize/Kill]
-    D -- Yes --> F[Assign to Individual based on Player Card]
+### The Loop
+
+```
+1. RECEIVE request (stakeholder, leadership, or self-identified opportunity)
+2. RUN Gate 1 — Team Capacity
+   → PASS: proceed to Gate 2
+   → FAIL (exceeds Capacity Contract): REJECT or NEGOTIATE scope reduction.
+     If not negotiable → ESCALATE to leadership. Loop ends.
+3. RUN Gate 2 — Company Strategy
+   → PASS (aligned with current Company Goal): proceed to Gate 3
+   → FAIL (misaligned): DEPRIORITIZE or DEFER to next planning cycle. Loop ends.
+4. RUN Gate 3 — Individual Match
+   → PASS (matches Player Card strengths/goals): ASSIGN and execute
+   → FAIL (poor match): REASSIGN to a better-matched team member or NEGOTIATE scope
+5. DOCUMENT outcome — log gate results in tactical plan or team operating system
+6. REVIEW at next retro — were DEFERRED or NEGOTIATED items revisited?
 ```
 
-### §4 — Decision Speed (Reversibility Check)
+### Re-Entry Rules
 
-* **Reversible Decisions:** Make them fast. Don't ask for permission. Bias toward action.
-* **Irreversible Decisions:** Require a Spec and sign-off. If in doubt, invoke Rule Zero.
+* A DEFERRED request re-enters the loop at Gate 2 only (Capacity already cleared at time of deferral).
+* A NEGOTIATED request re-enters the loop at the gate that triggered negotiation.
+* A REJECTED request does NOT re-enter — a re-scoped version from the same stakeholder is treated as a fresh evaluation.
+* Maximum three re-entry cycles per request. If no path to acceptance after three cycles, escalate or close.
+
+### Rule Zero Override
+
+* If any gate produces a conflict that analysis cannot resolve — or if the outcome feels wrong despite a logical pass — invoke Rule Zero: stop the loop and have a direct conversation with the relevant stakeholder before proceeding.
+
+---
+
+### §4 — Decision Speed (Reversibility Framework)
+
+**Purpose:** Match decision pace to decision weight. Move fast on reversible things; slow down on irreversible ones.
+
+### The Test
+
+> *"If I get this wrong, can I correct it within 30 days without significant cost to the team, the business, or an individual's career?"*
+
+| Answer | Classification | Speed |
+|--------|--------------|-------|
+| Yes, easily | **Reversible** | Decide fast — bias toward action |
+| Yes, with effort | **Partially reversible** | Decide within 48 hours with at least one input |
+| No | **Irreversible** | Decide slow — mandatory Rule Zero check + Boardroom consult if high stakes |
+
+### Examples by Category
+
+| Decision | Reversible? | Speed Rule |
+|----------|------------|------------|
+| Try a new meeting format or team ritual | ✅ Yes | Decide in the next standup |
+| Shift a sprint priority mid-cycle | ✅ Yes | Bias toward action — document rationale |
+| Assign a stretch assignment to a player | ⚠️ Partial | 48-hour rule — check Player Card first |
+| Change a team process or delivery standard | ⚠️ Partial | 48-hour rule — run it by the team |
+| Accept a new long-term commitment for the team | ❌ No | Run full 3-gate loop. Slow down. |
+| Put someone on a performance plan | ❌ No | Rule Zero + Boardroom. Write it out before any conversation. |
+| Restructure team responsibilities or roles | ❌ No | Rule Zero. Align with leadership first. Not an OS decision alone. |
+
+### Pressure Mode Interaction
+
+* Under pressure (P0 incident, leadership escalation, tight deadline), the bias toward fast decisions is **suspended for irreversible choices**.
+* All decisions above "Reversible" require explicit written reasoning before acting.
+* Rule C (Exception Function in §2) is the only bypass: P0 incidents suspend all MOS rules temporarily. Restore standard protocol immediately after resolution.

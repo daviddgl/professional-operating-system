@@ -95,7 +95,7 @@ These principles govern how the boardroom operates. All four apply to every sess
 Auto-select 3–4 personas based on topic type. The `boardroom [topic]` command uses this table to determine which personas activate.
 
 | Topic Type | Activate |
-|------------|---------||
+|------------|---------|
 | Client relationship / trust / rapport | People Coach + Vulnerability Anchor + Challenger |
 | Delivery / accountability / outcomes | Execution Force + Standards Anchor + Challenger |
 | Strategy / positioning / niche | Narrative Strategist + Execution Force + Challenger |

@@ -20,8 +20,8 @@ It contains:
 ├── scripts/
 │   └── bundle.sh             # Parameterized bundle generator
 └── references/
-    ├── coach-os/             # Career Coach OS (6-layer structure)
-    └── manager-os/           # Engineering Manager OS (6-layer structure)
+    ├── coach-os/             # Career Coach OS (7-layer structure)
+    └── manager-os/           # Engineering Manager OS (7-layer structure)
 ```
 
 ## Working with Reference Implementations
@@ -67,7 +67,7 @@ All reference implementations MUST satisfy `PROFESSION_SPEC.md §13` (Reference 
 1. Preserve the 7-layer folder structure
 2. Keep `bundle.conf` in sync with `01_KERNEL/*_operating_system.md` filename
 3. Maintain `Rule Zero` verbatim in the decision protocol (§6 of spec)
-4. Ensure all commands include the required fields: `Purpose`, `Trigger`, `Reads`, `Queries`, `Produces`, `Chains With`
+4. Ensure all commands include the required fields: `Trigger`, `Purpose`, `OS Files to Read`, `Ask User For`, `Critical Files for Freshness`, `Output Format`, `Chains With`
 5. Keep `CHANGELOG.md` updated for any structural changes
 
 ## When Editing
