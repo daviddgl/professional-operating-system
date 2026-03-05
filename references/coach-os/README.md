@@ -2,13 +2,7 @@
 
 A portable decision-support system for independent career coaches.
 
-Created by **David Garcia Lopez**.
-
 > **Root folder purpose:** repository metadata + onboarding entry docs. The operating system content lives in `00_BOOT` to `06_BOARDROOM`.
-
-- Contact: [CONTACT.md](CONTACT.md)
-- Author details: [AUTHORS.md](AUTHORS.md)
-- Contributing: [CONTRIBUTING.md](CONTRIBUTING.md)
 
 > **Great coaching outcomes come from intentional preparation, not improvised intuition under client pressure.**
 

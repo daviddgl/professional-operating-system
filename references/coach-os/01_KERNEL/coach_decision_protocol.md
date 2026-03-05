@@ -1,9 +1,9 @@
 # Coach Decision Protocol
 
 > **Layer:** KERNEL  
-> **Owner:** David Garcia  
+> **Owner:** [Your Name]  
 > **Version:** 2026.02  
-> **Last Updated:** 2026-02-28  
+> **Last Updated:** [YYYY-MM-DD]  
 > **Portable:** Yes — travels with the coach across all contexts
 
 ---
@@ -32,13 +32,13 @@ The action is always the same: talk to a human, directly, before deciding.
 When making a decision, apply constraints in this specific order:
 
 1. **Level 1: Client Fit (The Non-Negotiable Core)**
-    * *Why?* If the engineer is not willing to do the work and take radical ownership, the rest doesn't matter.
+    * *Why?* If the client is not willing to do the work and take radical ownership, the rest doesn't matter.
     * *Rule:* Match the engagement to the client's mindset. If they complain about others or refuse to do homework, DECLINE immediately.
 2. **Level 2: Practice Strategy (Global Direction)**
     * *Why?* The work must align with where the practice is headed.
     * *Rule:* Choose the path that maximises your North Star (validating the premium model or building the video course).
 3. **Level 3: Capacity (The Flexible Boundary)**
-    * *Why?* You operate under a strict weekly capacity contract (see Client Portfolio §4 for current figures) to protect your TrustYou job and family time.
+    * *Why?* You operate under a strict weekly capacity contract (see Client Portfolio §4 for current figures) to protect your personal capacity constraints.
     * *Rule:* If Fit and Strategy are perfectly aligned, you may choose to *amplify* capacity temporarily to accommodate the client. If not, block the request or NEGOTIATE the timeline.
 
 ---
@@ -47,7 +47,7 @@ When making a decision, apply constraints in this specific order:
 
 ### Rule A: The "Override" Function
 * **Scenario:** A prospect wants to pay the full amount, but they want you to rewrite their CV for them instead of doing it themselves.
-* **Logic:** Level 1 (Client Fit) overrides Level 2 (Strategy/Revenue). You decline the work because it violates your radical ownership standard. 
+* **Logic:** Level 1 (Client Fit) overrides Level 2 (Strategy/Revenue). You decline the work because it violates your radical ownership standard.
 
 ### Rule B: The "Conflict" Function
 * **Scenario:** Two perfect-fit clients want your last available hour.
@@ -115,7 +115,7 @@ When making a decision, apply constraints in this specific order:
 | Change the price point (up or down) | ⚠️ Partial | 48-hour rule — run Boardroom first |
 | Accept a new 1:1 client commitment | ❌ No | Run full 3-gate loop. Slow down. |
 | Drop an active client | ❌ No | Rule Zero + Boardroom. Write it out before any conversation. |
-| Leave TrustYou / go full-time coaching | ❌ No | Rule Zero. Family conversation first. Not an OS decision. |
+| [Leave day job / go full-time coaching] | ❌ No | Rule Zero. Family conversation first. Not an OS decision. |
 
 ### Pressure Mode Interaction
 * Under Pressure Mode (§12), the bias toward fast decisions is **suspended**.

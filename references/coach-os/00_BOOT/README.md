@@ -1,16 +1,16 @@
-# Coach Operating System (COS) — David Garcia
+# Coach Operating System (COS)
 
 > **Layer:** BOOT  
-> **Owner:** David Garcia  
+> **Owner:** [Your Name]  
 > **Version:** 2026.02  
-> **Last Updated:** 2026-03-01  
+> **Last Updated:** [YYYY-MM-DD]  
 > **Portable:** Yes — system manual, travels with the coach
 
 ---
 
 ## What Is This?
 
-This repository is a **Coach Operating System (COS)** — a decision-support framework that separates *how I think* (Kernel) from *where I practice* (Config/Drivers) and *what I'm doing right now* (Processes).
+This repository is a **Coach Operating System (COS)** — a decision-support framework that separates *how the coach thinks* (Kernel) from *where they practice* (Config/Drivers) and *what they're doing right now* (Processes).
 
 **It is NOT a decision-maker.** It calculates trade-offs and surfaces the right context. Humans make the call. See **Rule Zero** in the Decision Protocol.
 

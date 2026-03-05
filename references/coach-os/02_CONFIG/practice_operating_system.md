@@ -1,49 +1,48 @@
 # Practice Operating System (PracticeOS)
 
 > **Layer:** CONFIG  
-> **Owner:** David Garcia  
+> **Owner:** [Your Name]  
 > **Version:** 2026.02  
-> **Last Updated:** 2026-02-28  
-> **Portable:** No — Practice-specific
+> **Last Updated:** [YYYY-MM-DD]  
+> **Portable:** No — specific to the current practice identity and niche
 
 ---
 
 ## 1. Identity & Purpose
-**Mission:** To help engineers and tech professionals regain their confidence, navigate complex career transitions, and design lives of ultimate freedom.
-**Vision:** A tech industry where engineers don't just follow the default script, but actively design their careers and lives with intention, ownership, and confidence.
+**Mission:** [Your practice mission — e.g., To help [client type] achieve [outcome] through [your approach].]
+**Vision:** [The change you want to see in your professional community. What does the world look like when your coaching works at scale?]
 
 ---
 
 ## 2. Core Values (The Practice DNA)
 <!-- Canonical source: COS §1 (coach_operating_system.md). Values are identical for a solo practitioner. Update both if values evolve. -->
-### ⭐️ Honesty
-**Definition:** Extreme candor. We tell the hard truth, preferably sharing our own failures and lessons, because growth happens at the edge of comfort.
-### ⭐️ Freedom & Autonomy
-**Definition:** The ultimate goal is control over our time and choices. We coach to build leverage, not just to get the next job title.
-### ⭐️ Radical Ownership
-**Definition:** No complaining about others or external circumstances. Clients must take 100% responsibility for their actions and their career trajectory.
-### ⭐️ Holistic Growth
-**Definition:** Professional and personal lives are deeply connected. We focus on mental and physical strength just as much as interview skills.
+### ⭐️ [Value 1]
+**Definition:** [What this value means in practice — e.g., how you give feedback, how you hold clients accountable]
+### ⭐️ [Value 2]
+**Definition:** [What this value means in practice]
+### ⭐️ [Value 3]
+**Definition:** [What this value means in practice]
+### ⭐️ [Value 4]
+**Definition:** [What this value means in practice]
 
 ---
 
 ## 3. Niche & Ideal Client Profile
-**Coaching Niche:** Career coaching and interview preparation for engineers.
+**Coaching Niche:** [Your niche — e.g., career coaching for professionals, executive coaching, leadership development for first-time managers]
 <!-- Canonical source: This file (Practice OS §3). personal_dna.md carries a copy for portability. -->
 **Ideal Client:**
-* Engineers who want to improve their careers and are willing to take radical ownership.
-* Professionals who value straight talk and lived experience over academic theory.
+* [Describe the mindset, situation, or goal that makes someone a great fit — e.g., professionals at a career crossroads who are willing to do the work]
+* [Any specific professional background, seniority level, or context that matters]
 
 **Who is NOT your ideal client:**
-* People who don't want to make the effort to grow.
-* Individuals who constantly complain about others or external circumstances.
-* People looking for a quick CV rewrite without doing the deep, inner work.
+* [Describe the mindset or situation that signals a poor fit — e.g., people looking for quick fixes without personal effort]
+* [Any deal-breaker behaviours or expectations]
 
 ---
 
 ## 4. Service Offerings
 | Service | Format | Duration | Price | Target Client |
 | :--- | :--- | :--- | :--- | :--- |
-| **1:1 Interview Prep** | 1-on-1 coaching | 4 weeks | €995 | Engineers actively interviewing |
-| **Career Improvement** | 1-on-1 weekly | Ongoing / Variable | €995/mo | Engineers seeking promotion or pivot |
-| **Small Course** | Async / Digital | Self-paced | TBD (target: €197–€297) | Engineers needing foundational tools |
+| **[Service 1]** | [e.g., 1-on-1 weekly sessions] | [e.g., 8 weeks] | [e.g., €X / $X] | [Who this is for] |
+| **[Service 2]** | [e.g., Group programme] | [e.g., 12 weeks] | [e.g., €X / $X] | [Who this is for] |
+| **[Service 3]** | [e.g., Async / digital course] | [Self-paced] | [e.g., €X / $X] | [Who this is for] |

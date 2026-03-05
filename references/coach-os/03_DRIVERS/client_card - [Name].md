@@ -1,9 +1,9 @@
-# Client Card: [Prospect Name]
+# Client Card: [Client Name]
 
 > **Layer:** DRIVERS  
-> **Owner:** [Prospect Name] + David Garcia  
+> **Owner:** [Client Name] + [Your Name]  
 > **Version:** 2026.02  
-> **Last Updated:** 2026-02-28  
+> **Last Updated:** [YYYY-MM-DD]  
 > **Portable:** No — Client-specific instance
 
 ---
@@ -17,7 +17,7 @@
 * **Career Blocker:** [What is holding them back? Confidence? Tactics?]
 
 ## 2. Communication Preferences
-* **Feedback Style:** Direct and honest (aligned with my values).
+* **Feedback Style:** [e.g., Direct and concise / Gentle and exploratory / Structured with written recap]
 * **What energises them in sessions:** [e.g., Tactical frameworks, story-sharing]
 
 ## 3. Coaching Goals (Current Programme)

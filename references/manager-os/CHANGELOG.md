@@ -18,9 +18,6 @@ The upgrade preserves all your existing data and only asks about new/changed sec
 
 ## [Unreleased]
 
-### Removed
-- `LICENSE`, `AUTHORS.md`, `CONTACT.md`, `NOTICE`, `CONTRIBUTING.md`, `.gitignore` — consolidated to monorepo root. These files live at the root of `daviddgl/professional-operating-system` and apply to all references. Standalone repo retains its own copies.
-- `01_KERNEL/manager_decision_protocol.md` §3 and §4 — expanded from stub to full spec-compliant content (re-entry rules, max iteration limit, Rule Zero override trigger, reversibility table with 7 examples, Pressure Mode interaction)
 
 > Changes documented here will be included in the next version.
 

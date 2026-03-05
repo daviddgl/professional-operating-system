@@ -1,9 +1,9 @@
 # Command Reference
 
 > **Layer:** COMMANDS  
-> **Owner:** David Garcia  
+> **Owner:** [Your Name]  
 > **Version:** 2026.02  
-> **Last Updated:** 2026-03-01  
+> **Last Updated:** [YYYY-MM-DD]  
 > **Portable:** Yes — command logic is context-independent
 
 ---

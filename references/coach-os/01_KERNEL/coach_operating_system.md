@@ -1,28 +1,28 @@
 # Coach Operating System (COS)
 
 > **Layer:** KERNEL  
-> **Owner:** David Garcia  
+> **Owner:** [Your Name]  
 > **Version:** 2026.02  
-> **Last Updated:** 2026-02-28  
+> **Last Updated:** [YYYY-MM-DD]  
 > **Portable:** Yes — travels with the coach across all contexts
 
 ---
 
 ## 1. The Kernel: Core Coaching Philosophy
 
-**Purpose Statement:** I leverage my 25+ years of engineering leadership to help tech professionals navigate interviews, build confidence, and design careers that give them ultimate freedom.
+**Purpose Statement:** [Your purpose — e.g., I leverage my background in [field/industry] to help [target clients] navigate [core challenge] and build careers that give them [core outcome].]
 
 ### Core Values (The DNA)
-1. **Honesty:** Extreme candor with myself and my clients.
-2. **Freedom & Autonomy:** Success means controlling my own calendar and being 100% responsible for my achievements.
-3. **Radical Ownership:** No complaining about others; you are in charge of your own life and action items.
-4. **Holistic Growth:** Life and work are related; growing strong physically and mentally is just as important as career progression.
+1. **[Value 1 — e.g., Honesty]:** [What this means in practice — e.g., Extreme candor with yourself and your clients.]
+2. **[Value 2 — e.g., Freedom & Autonomy]:** [What this means — e.g., Success means controlling your own calendar and being 100% responsible for your achievements.]
+3. **[Value 3 — e.g., Radical Ownership]:** [What this means — e.g., No complaining about others; you are in charge of your own life and action items.]
+4. **[Value 4 — e.g., Holistic Growth]:** [What this means — e.g., Life and work are related; growing strong physically and mentally is as important as career progression.]
 
 ---
 
 ## 2. Client Expectations & Relationship Spec
 
-**Goal:** A high-accountability partnership where the engineer takes the driver's seat.
+**Goal:** A high-accountability partnership where the client takes the driver's seat.
 
 * **Own Your Actions:** You own your action items—I won't chase you. I do not micromanage.
 * **Radical Honesty:** Honesty is a must. Do not complain about others; you are in charge of your own life.
@@ -85,7 +85,7 @@ No session ends without:
 **Goal:** Continuous improvement through honest, concrete feedback in both directions.
 
 ### Outbound (You to Client)
-* **The Hard Truth:** I deliver the hard truth, preferably wrapped in a personal story of how I faced or overcame the same issue.
+* **The Hard Truth:** Deliver the hard truth, preferably wrapped in a personal story of how you faced or overcame the same issue.
 * **Specificity Rule:** Feedback must be concrete and actionable.
 
 ### Inbound (Client to You)
@@ -125,7 +125,7 @@ No session ends without:
 * **Documentation:** Session notes are sent within 24 hours.
 * **Confidentiality:** Complete and absolute confidentiality for every client.
 * **Preparation:** Clients must complete and submit their homework before the session begins.
-* **Authority:** I coach from 25+ years of lived experience and engineering leadership, not from academic coaching theory.
+* **Authority:** [Your authority source — e.g., I coach from [X]+ years of lived experience in [field], not from academic theory alone.]
 
 ### Post-Session Note Template
 
@@ -151,8 +151,8 @@ Every session output (stored in Notion/Google Docs) must capture:
 **Purpose:** Grow continuously as a practitioner and avoid the isolation that degrades coaching quality over time.
 
 ### Certifications & Formal Training
-* **Current status:** No formal coaching certifications. Authority is derived from 25+ years of engineering leadership and 40+ professionals mentored globally.
-* **Development path:** Pursuing ICF Associate Certified Coach (ACC) credential as the practice matures and revenue supports self-investment.
+* **Current status:** [Your current credential status — e.g., No formal coaching certifications. Authority is derived from [X]+ years in [field] and [N]+ professionals mentored / coached. OR: ICF Associate Certified Coach (ACC) credential held since [year].]
+* **Development path:** [Your next step — e.g., Pursuing ICF ACC as the practice matures, or maintaining CPD hours for renewal.]
 
 ### Supervision & Peer Consultation
 * **Principle:** Coaching without supervision is flying blind. Even experienced practitioners need a reflective space outside the client relationship.
@@ -163,11 +163,11 @@ Every session output (stored in Notion/Google Docs) must capture:
 ### CPD Commitments (Continuing Professional Development)
 * **Reading / Learning:** Minimum 1 coaching-related book, podcast series, or course per quarter.
 * **Reflection:** Maintain a brief coaching journal — noting patterns, breakthroughs, and ethical questions that arise in sessions.
-* **Self-application:** Apply coaching tools to my own transitions (career, content, business) before teaching them to clients.
+* **Self-application:** Apply coaching tools to your own transitions (career, content, business) before teaching them to clients.
 
 ### Ethical Standards
 * **Scope of practice:** I do not offer therapy, legal advice, or financial advice. When sessions move into clinical territory, refer out.
-* **Conflict of interest:** Do not coach direct reports at my day-job employer. Keep coaching practice completely separate from any current or future employment relationships.
+* **Conflict of interest:** Do not coach direct reports at your day-job employer. Keep coaching practice completely separate from any current or future employment relationships.
 * **Confidentiality:** Absolute — no case studies with identifiable details without explicit written permission.
 
 ---
@@ -176,9 +176,9 @@ Every session output (stored in Notion/Google Docs) must capture:
 
 ### Activation Triggers (Stress Indicators)
 If **two or more** of these are true, activate Pressure Mode:
-- [ ] Undercharging for my services despite delivering high value.
+- [ ] Undercharging for your services despite delivering high value.
 - [ ] Feeling heavy self-doubt or imposter syndrome ("Am I doing this right?").
-- [ ] The "Lone Wolf" trigger: Taking on too much stress entirely by myself without asking for help.
+- [ ] The "Lone Wolf" trigger: Taking on too much stress entirely by yourself without asking for help.
 
 ### Pressure Mode Rules
 1. **SLOW DOWN:** Take 2 minutes before any session or business decision. Write it down before acting.
@@ -220,11 +220,11 @@ If **two or more** of these are true, activate Pressure Mode:
 
 ## 13. System I/O & Memory (External Resources)
 
-* **Client Memory & Notes:** Notion and Google Docs
+* **Client Memory & Notes:** [Your note-taking tool — e.g., Notion, Google Docs, Obsidian]
     * *Role:* The Source of Truth for session histories, insights, and client progress.
-* **Scheduling:** Calendly (calendly.com/daviddgl) & Google Calendar
-    * *Role:* The Source of Truth for the 6-hour weekly time budget.
-* **Communication:** Email (daviddgl@gmail.com) and LinkedIn
+* **Scheduling:** [Your scheduling tool — e.g., Calendly] & [Your calendar — e.g., Google Calendar]
+    * *Role:* The Source of Truth for your weekly coaching capacity.
+* **Communication:** [Your email address] and [Your primary channel — e.g., LinkedIn]
     * *Role:* Ephemeral between-session contact and inbound lead generation.
-* **Marketing, Ops & Learning Hub:** Mastermind.com
-    * *Role:* Central platform for social network publishing, dashboards, landing pages, website hosting, and course delivery.
+* **Marketing, Ops & Learning Hub:** [Your platform — e.g., Kajabi, Podia, ConvertKit, Notion]
+    * *Role:* Central platform for content publishing, CRM, landing pages, and course delivery.

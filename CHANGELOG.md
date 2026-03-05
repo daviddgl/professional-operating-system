@@ -13,10 +13,6 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 ### Added
 
 ### Changed
-- Root `CONTRIBUTING.md` — merged detailed CHANGELOG requirements (example block, `version_upgrade` parsing note, releasing instructions) from deleted reference-level copies
-
-### Removed
-- `references/coach-os/` and `references/manager-os/`: deleted `LICENSE`, `AUTHORS.md`, `CONTACT.md`, `NOTICE`, `CONTRIBUTING.md`, `.gitignore` — all redundant with root-level equivalents in the monorepo context. Standalone repos (`daviddgl/coach-operating-system`, `daviddgl/manager-operating-system`) retain their own copies.
 
 ### Migration Steps
 
@@ -25,16 +21,6 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 ## [1.0] — 2026-03-04
 
 **Initial release** — First version of the Professional Operating System framework.
-
-### Added
-
-- `PROFESSION_SPEC.md` — The formal specification defining all structural rules for profession variants (13 sections covering layers, portability, file headers, Rule Zero, decision protocol, commands, boardroom, freshness system, vocabulary, and reference implementations)
-- `GENERATOR_PROMPT.md` — Meta-wizard for creating new profession variants via AI interview (stub — to be implemented)
-- `scripts/bundle.sh` — Parameterized bundle generator that works for any profession via `bundle.conf` auto-detection
-- `references/coach-os/` — Career Coach OS reference implementation (v2026.02)
-- `references/manager-os/` — Engineering Manager OS reference implementation (v2026.02)
-- `bundle.conf` added to both reference implementations for explicit profession identification
-- Root `README.md`, `CONTRIBUTING.md`, `LICENSE`, `AUTHORS.md`, `CONTACT.md`, `CHANGELOG.md`
 
 ### Framework Rules Established
 
