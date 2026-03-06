@@ -21,8 +21,11 @@ The upgrade preserves all your existing data and only asks about new/changed sec
 ### Removed
 
 ### Added
+- **`skills/writing_voice.md`** — Writing Voice skill template (blank, ready for generation via `skills-library/writing-voice/generation_prompt.md`)
 
 ### Changed
+- **`05_COMMANDS/system_prompt.md`** — Added `skills/` extension sidecar to architecture map; updated Portability Rules to include Skills; added Skills Activation rule for content generation tasks
+- **`scripts/bundle.sh`** — Produces `bundle/skills_compiled.md` alongside main bundle when `skills/` contains files
 
 ---
 

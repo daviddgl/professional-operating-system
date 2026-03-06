@@ -361,7 +361,94 @@ freshness_check(files):
 
 ---
 
-## 12. Professions That Fit This Model
+## 12. Extension System: Skills
+
+> **SHOULD** — Skills are optional capability profiles that augment how the AI copilot performs tasks. They are NOT a layer of the 7-layer model. The 7-layer model is unchanged.
+
+### What Is a Skill?
+
+A **skill** is a passive AI capability profile — a structured document that tells the AI *how* to perform a class of task (e.g., write in the user's voice, take notes in the user's format). Skills differ from commands:
+
+| | Commands (`05_COMMANDS/`) | Skills (`skills/`) |
+|-|--------------------------|-------------------|
+| **Triggered by** | User typing a command | AI detecting a relevant task |
+| **Output** | Structured decision-support result | Enhanced quality of any output |
+| **Lifecycle** | Permanent (part of the OS) | Permanent, portable |
+| **Required?** | Yes (minimum 5 categories) | No — entirely optional |
+
+### The `skills/` Directory
+
+Skills live in a `skills/` directory at the **reference root** — a sibling to `00_BOOT/` through `06_BOARDROOM/`, **outside** the 7-layer model. This means:
+
+- Skills do NOT participate in the layer lifecycle (portability contract, freshness system, bundle layer numbering)
+- Skills ARE portable — they travel with the professional like the Kernel does
+- The `skills/` folder may be empty or absent — this is valid and expected for new OS users
+
+```
+references/coach-os/
+├── 00_BOOT/ … 06_BOARDROOM/   ← The 7-layer OS (unchanged)
+├── skills/                     ← Extension system (sidecar)
+│   └── writing_voice.md        ← A skill file
+└── bundle.conf
+```
+
+### Skill File Format
+
+> **MUST** — Every file in `skills/` must follow this format.
+
+```markdown
+# Skill: [Skill Name]
+
+> **Layer:** SKILLS
+> **Owner:** [Your Name]
+> **Version:** [YYYY.MM]
+> **Last Updated:** [YYYY-MM-DD]
+> **Portable:** Yes — travels with the professional across all contexts
+> **Type:** Universal | Profession | Custom
+
+## What Is This Skill?
+[1–2 sentence description of what capability this skill gives the AI copilot]
+
+## Activation
+[When should the AI load and apply this skill? e.g.: "Activate when generating any written content on behalf of the user — emails, posts, proposals, documents."]
+
+## Generation
+[How this skill was created — either: "Generated via `skills-library/[skill-name]/generation_prompt.md`" or a custom description]
+
+## Profile
+[The generated content — voice analysis, style guide, output patterns. This section is populated by running the generation prompt.]
+```
+
+### Skill Types
+
+| Type | Description | Example |
+|------|-------------|---------|
+| **Universal** | Applicable to any profession — not context-specific | Writing Voice |
+| **Profession** | Specific to a profession variant | Career Coach Session Note Style |
+| **Custom** | User-created, not from the shared skills library | Any |
+
+### The Skills Library
+
+The `/skills-library/` directory at the **framework root** contains universal skill templates shared across all profession variants:
+
+```
+/skills-library/
+└── writing-voice/
+    ├── README.md               ← What this skill enables
+    └── generation_prompt.md    ← The meta-prompt for generating the skill
+```
+
+Each skill in the library provides a `generation_prompt.md` — a meta-prompt the user runs in their AI to produce their personalised skill file.
+
+### Bundle Behaviour
+
+When `bundle.sh` runs and a `skills/` directory exists with `.md` files, it produces a **second output file**: `bundle/skills_compiled.md`. This is uploaded to the AI platform alongside the primary OS bundle — two files total.
+
+If `skills/` is empty or absent, `bundle.sh` skips the skills pass silently.
+
+---
+
+## 13. Professions That Fit This Model
 
 The Professional OS framework is not a general-purpose productivity system. It is designed specifically for professions with the following characteristics.
 
@@ -397,7 +484,7 @@ A profession fits this model if it has **all five**:
 
 ---
 
-## 13. Reference Implementations
+## 14. Reference Implementations
 
 Two fully implemented profession variants are included in this repository as canonical references. Both comply with every MUST rule in this specification as of their version numbers.
 
@@ -436,6 +523,7 @@ To validate a profession variant against this specification, check:
 - [ ] All commands declare freshness requirements using the 🔴/🟡/🟢 system
 - [ ] `bundle.conf` present at repo root with `PROFESSION`, `ABBREVIATION`, `DISPLAY_NAME`
 - [ ] `scripts/bundle.sh` produces a valid compiled bundle with `system_prompt.md` marker
+- [ ] *(optional)* If `skills/` directory exists: every file follows the skill format from §12
 
 ---
 

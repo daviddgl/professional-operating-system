@@ -21,11 +21,13 @@
 #
 # OUTPUT:
 #   bundle/{abbrev_lower}_compiled.md  (e.g., cos_compiled.md, mos_compiled.md)
+#   bundle/skills_compiled.md          (only if skills/ directory contains .md files)
 #
 # DEPLOYMENT:
 #   1. Upload bundle/{abbrev}_compiled.md to your AI platform knowledge base
-#   2. Paste 00_BOOT/bootstrap_prompt.md into Custom Instructions (once only)
-#   3. Test: type init_week in your AI conversation
+#   2. Upload bundle/skills_compiled.md  (if present) to the same knowledge base
+#   3. Paste 00_BOOT/bootstrap_prompt.md into Custom Instructions (once only)
+#   4. Test: type init_week in your AI conversation
 # =============================================================================
 
 set -e
@@ -76,6 +78,7 @@ fi
 ABBREV_LOWER=$(echo "$ABBREVIATION" | tr '[:upper:]' '[:lower:]')
 BUNDLE_DIR="$REPO_ROOT/bundle"
 OUTPUT_FILE="$BUNDLE_DIR/${ABBREV_LOWER}_compiled.md"
+SKILLS_OUTPUT_FILE="$BUNDLE_DIR/skills_compiled.md"
 
 mkdir -p "$BUNDLE_DIR"
 rm -f "$OUTPUT_FILE"
@@ -174,6 +177,44 @@ add_file_to_bundle "$REPO_ROOT/05_COMMANDS/system_prompt.md"
 echo -e "${BLUE}▸ 06_BOARDROOM${NC}"
 add_file_to_bundle "$REPO_ROOT/06_BOARDROOM/boardroom.md"
 
+# ── Skills (Extension System — sidecar, not a layer) ─────────────────────────
+SKILLS_DIR="$REPO_ROOT/skills"
+SKILLS_FILE_COUNT=0
+if [ -d "$SKILLS_DIR" ]; then
+  skill_files=("$SKILLS_DIR"/*.md)
+  if [ -e "${skill_files[0]}" ]; then
+    echo ""
+    echo -e "${BLUE}▸ skills/${NC}  (extension sidecar → ${SKILLS_OUTPUT_FILE})"
+    rm -f "$SKILLS_OUTPUT_FILE"
+    {
+      echo "# ${DISPLAY_NAME} Operating System (${ABBREVIATION}) — Skills Bundle"
+      echo ""
+      echo "> **Generated:** $(date '+%Y-%m-%d %H:%M')"
+      echo ">"
+      echo "> Upload this file to your AI platform knowledge base alongside ${ABBREV_LOWER}_compiled.md."
+      echo ""
+      echo "---"
+      echo ""
+    } > "$SKILLS_OUTPUT_FILE"
+
+    for skill_file in "${skill_files[@]}"; do
+      relative_path="${skill_file#$REPO_ROOT/}"
+      {
+        echo ""
+        echo "<!-- ═══════════════════════════════════════════════════════════ -->"
+        echo "<!-- SOURCE FILE: $relative_path -->"
+        echo "<!-- ═══════════════════════════════════════════════════════════ -->"
+        echo ""
+        cat "$skill_file"
+      } >> "$SKILLS_OUTPUT_FILE"
+      echo -e "  ${GREEN}✓${NC}  $relative_path"
+      SKILLS_FILE_COUNT=$((SKILLS_FILE_COUNT + 1))
+    done
+  else
+    echo -e "  ${YELLOW}⚠  skills/ directory is empty — skipping skills bundle${NC}"
+  fi
+fi
+
 # ── Summary ───────────────────────────────────────────────────────────────────
 echo ""
 echo -e "${GREEN}✓ Bundle complete!${NC}"
@@ -181,6 +222,12 @@ LINE_COUNT=$(wc -l < "$OUTPUT_FILE")
 BYTE_SIZE_KB=$(( $(wc -c < "$OUTPUT_FILE") / 1024 ))
 echo -e "  Files: ${YELLOW}${FILE_COUNT}${NC}  |  Lines: ${YELLOW}${LINE_COUNT}${NC}  |  Size: ${YELLOW}${BYTE_SIZE_KB} KB${NC}"
 echo -e "  Output: ${YELLOW}${OUTPUT_FILE}${NC}"
+if [ "$SKILLS_FILE_COUNT" -gt 0 ]; then
+  SKILLS_LINE_COUNT=$(wc -l < "$SKILLS_OUTPUT_FILE")
+  SKILLS_KB=$(( $(wc -c < "$SKILLS_OUTPUT_FILE") / 1024 ))
+  echo -e "  Skills: ${YELLOW}${SKILLS_FILE_COUNT} skill(s)${NC}  |  Lines: ${YELLOW}${SKILLS_LINE_COUNT}${NC}  |  Size: ${YELLOW}${SKILLS_KB} KB${NC}"
+  echo -e "  Skills output: ${YELLOW}${SKILLS_OUTPUT_FILE}${NC}"
+fi
 echo ""
 
 # ── Verification ──────────────────────────────────────────────────────────────
@@ -194,6 +241,12 @@ echo ""
 # ── Next steps ────────────────────────────────────────────────────────────────
 echo -e "${BLUE}Next steps:${NC}"
 echo "  1. Upload bundle/${ABBREV_LOWER}_compiled.md  →  AI platform knowledge base"
-echo "  2. Paste  00_BOOT/bootstrap_prompt.md  →  Custom Instructions (once)"
-echo "  3. Test:  type init_week in your AI conversation"
+if [ "$SKILLS_FILE_COUNT" -gt 0 ]; then
+  echo "  2. Upload bundle/skills_compiled.md          →  same knowledge base (skills)"
+  echo "  3. Paste  00_BOOT/bootstrap_prompt.md        →  Custom Instructions (once)"
+  echo "  4. Test:  type init_week in your AI conversation"
+else
+  echo "  2. Paste  00_BOOT/bootstrap_prompt.md  →  Custom Instructions (once)"
+  echo "  3. Test:  type init_week in your AI conversation"
+fi
 echo ""

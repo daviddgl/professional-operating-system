@@ -20,6 +20,10 @@
 !scripts/
 !scripts/**
 
+# Whitelist: skills library (universal skill templates)
+!skills-library/
+!skills-library/**
+
 # Whitelist: reference implementations (all files within each reference)
 !references/
 !references/manager-os/
