@@ -36,7 +36,7 @@
 - **Why these goals matter to me:** [Connect the goals to your personal motivation]
 
 ## Best Win & Hardest Lesson
-- **Biggest Achievement:** [A coaching or Profession win that shaped how you practice today]
+- **Biggest Achievement:** [A coaching or professional win that shaped how you practice today]
 - **Biggest Failure:** [A lesson learned the hard way — what happened and what you took from it]
 - **Lesson Learned:** [The principle you extracted from the failure]
 
@@ -55,7 +55,7 @@
 
 ## Success Metrics (what "good" looks like)
 - **[Metric 1]:** [How you know things are going well — e.g., client outcomes, income, time freedom]
-- **[Metric 2]:** [A personal or Profession measure of success]
+- **[Metric 2]:** [A personal or professional measure of success]
 - **[Metric 3]:** [A longer-term vision metric]
 
 ## Greeting

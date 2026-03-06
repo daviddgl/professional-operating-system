@@ -27,7 +27,7 @@
 
 ## 1. What Is a Profession Operating System?
 
-A **Profession Operating System (OS)** is a structured collection of plain markdown files that encodes how a Profession thinks, decides, and operates in their role. Uploaded to an AI platform (ChatGPT, Gemini, Claude), these files give the AI the full context of the person's philosophy, their team or client relationships, their organisation's constraints, and their current quarter — enabling structured, context-aware decision support.
+A **Profession Operating System (OS)** is a structured collection of plain markdown files that encodes how a professional thinks, decides, and operates in their role. Uploaded to an AI platform (ChatGPT, Gemini, Claude), these files give the AI the full context of the person's philosophy, their team or client relationships, their organisation's constraints, and their current quarter — enabling structured, context-aware decision support.
 
 The OS metaphor is intentional: like a computer's operating system, a Profession OS has:
 - A **kernel** — the portable, permanent core (values, decision logic)
@@ -66,7 +66,7 @@ Every file in a Profession OS contains content from one or more of these tiers. 
 | Layer | Folder | Lifecycle | Portable | Purpose |
 |-------|--------|-----------|----------|---------|
 | 00 | `00_BOOT/` | Permanent | Yes | System manual and bootstrap prompt. Documents the architecture and tells the AI how to load the OS. Read once. |
-| 01 | `01_KERNEL/` | Permanent | Yes | The Profession's portable philosophy — values, decision protocol, personal DNA. Travels with the person across every context. |
+| 01 | `01_KERNEL/` | Permanent | Yes | The professional's portable philosophy — values, decision protocol, personal DNA. Travels with the person across every context. |
 | 02 | `02_CONFIG/` | Per-context | No | External context — the company, practice, or organisation the person currently operates within. Replaced when context changes. |
 | 03 | `03_DRIVERS/` | Per-roster | No | Current people — team members, clients, stakeholders, or accounts the person currently serves or leads. Replaced when roster changes. |
 | 04 | `04_PROCESSES/` | Per-quarter | No | Current execution — the tactical or quarterly plan. Replaced every quarter. |
