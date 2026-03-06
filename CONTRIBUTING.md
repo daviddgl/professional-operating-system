@@ -1,6 +1,6 @@
-# Contributing to Professional Operating System
+# Contributing to Profession Operating System
 
-Thanks for your interest in improving the Professional Operating System framework.
+Thanks for your interest in improving the Profession Operating System framework.
 
 ## Contribution Types
 

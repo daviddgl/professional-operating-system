@@ -1,4 +1,4 @@
-# Copilot Instructions — Professional Operating System Framework
+# Copilot Instructions — Profession Operating System Framework
 
 > **Audience:** Framework contributors and variant creators.
 > If you are an end user of a specific profession variant, open that
@@ -7,7 +7,7 @@
 
 ## What This Repository Is
 
-This repository is the **Professional Operating System (POS) Framework** — a meta-framework that defines the structural rules for building portable, markdown-based decision-support systems for any profession.
+This repository is the **Profession Operating System (POS) Framework** — a meta-framework that defines the structural rules for building portable, markdown-based decision-support systems for any profession.
 
 It contains:
 - **`PROFESSION_SPEC.md`** — The formal specification all profession variants must follow
@@ -46,7 +46,7 @@ Each reference follows the 7-layer model defined in `PROFESSION_SPEC.md §3`:
 ## Key Conventions
 
 ### Naming
-- Framework: "Professional Operating System Framework" (abbreviated "POS Framework")
+- Framework: "Profession Operating System Framework" (abbreviated "POS Framework")
 - Variants use ALLCAPS abbreviations: COS (Coach), MOS (Manager)
 - File names: lowercase with underscores (`coach_operating_system.md`)
 

@@ -24,7 +24,7 @@
 
 ## Identity
 - **Name:** [Your Name]
-- **Coaching Niche:** [Your niche — e.g., career coaching for professionals, executive coaching, leadership development] <!-- Derived from Practice OS §3 — update there first, then sync here. -->
+- **Coaching Niche:** [Your niche — e.g., career coaching for Professions, executive coaching, leadership development] <!-- Derived from Practice OS §3 — update there first, then sync here. -->
 - **Certifications / Training:** [Your credentials, training, or experience base — e.g., ICF ACC, 20+ years of industry experience, formal coaching diploma]
 - **Current Occupation:** [Your current role — e.g., full-time coach, coach alongside a day job, transitioning practitioner]
 - **Future Direction:** [Where you want to be in 12–24 months as a coaching practitioner]
@@ -36,7 +36,7 @@
 - **Why these goals matter to me:** [Connect the goals to your personal motivation]
 
 ## Best Win & Hardest Lesson
-- **Biggest Achievement:** [A coaching or professional win that shaped how you practice today]
+- **Biggest Achievement:** [A coaching or Profession win that shaped how you practice today]
 - **Biggest Failure:** [A lesson learned the hard way — what happened and what you took from it]
 - **Lesson Learned:** [The principle you extracted from the failure]
 
@@ -55,7 +55,7 @@
 
 ## Success Metrics (what "good" looks like)
 - **[Metric 1]:** [How you know things are going well — e.g., client outcomes, income, time freedom]
-- **[Metric 2]:** [A personal or professional measure of success]
+- **[Metric 2]:** [A personal or Profession measure of success]
 - **[Metric 3]:** [A longer-term vision metric]
 
 ## Greeting

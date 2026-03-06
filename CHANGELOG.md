@@ -1,4 +1,4 @@
-# Changelog — Professional Operating System Framework
+# Changelog — Profession Operating System Framework
 
 All notable changes to the **framework specification** and **root-level files** are documented here. Changes to individual reference implementations are documented in their own `CHANGELOG.md` files.
 
@@ -25,7 +25,7 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [1.0] — 2026-03-04
 
-**Initial release** — First version of the Professional Operating System framework.
+**Initial release** — First version of the Profession Operating System framework.
 
 ### Framework Rules Established
 

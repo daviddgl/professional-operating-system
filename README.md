@@ -1,4 +1,4 @@
-# Professional Operating System
+# Profession Operating System
 
 > An AI-native framework for structured decision-making across professions.
 > Give your AI copilot the full context of your role, your team, your organisation,
@@ -14,7 +14,7 @@ Created by **David Garcia Lopez**.
 
 ## What Is This?
 
-A **Professional Operating System** is a set of structured markdown files that encode how you think, decide, and operate in your profession. Upload them to an AI platform (ChatGPT, Gemini, Claude) and get a personalised decision-support copilot that knows your values, your team or clients, your organisation's strategy, and your current quarter.
+A **Profession Operating System** is a set of structured markdown files that encode how you think, decide, and operate in your profession. Upload them to an AI platform (ChatGPT, Gemini, Claude) and get a personalised decision-support copilot that knows your values, your team or clients, your organisation's strategy, and your current quarter.
 
 The key idea: **separate the logic (how you decide) from the data (where you work)**. The logic is portable — it travels with you across teams, companies, and client cohorts. The data is replaceable.
 
@@ -50,7 +50,7 @@ The key idea: **separate the logic (how you decide) from the data (where you wor
 
 ## Architecture (All Professions)
 
-Every Professional OS follows the same 7-layer structure:
+Every Profession OS follows the same 7-layer structure:
 
 | Layer | Folder | Lifecycle | Portable | Purpose |
 |-------|--------|-----------|----------|---------|
@@ -71,7 +71,7 @@ See [PROFESSION_SPEC.md](PROFESSION_SPEC.md) for the full specification governin
 ## Repository Structure
 
 ```
-professional-operating-system/
+profession-operating-system/
 ├── PROFESSION_SPEC.md         # Framework specification (structural rules)
 ├── GENERATOR_PROMPT.md        # Meta-wizard for creating new profession variants
 ├── README.md                  # This file

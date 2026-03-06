@@ -25,7 +25,7 @@ Independent career coaches make high-stakes decisions in isolation — whether t
 
 **Coach Operating System** is a structured collection of markdown files organized as an operating system:
 
-- **KERNEL** — Your portable coaching philosophy, decision protocols, and professional standards. Travels with you.
+- **KERNEL** — Your portable coaching philosophy, decision protocols, and profession standards. Travels with you.
 - **CONFIG** — Practice identity, mission, and strategy. Defines the environment you operate in.
 - **DRIVERS** — Client portfolio and client cards. Swapped when your roster changes.
 - **PROCESSES** — Current quarter's programme plan. Replaced quarterly.
@@ -121,7 +121,7 @@ The upgrade command reads your current version from file headers, applies change
 
 ## How to Customize
 
-1. Start with `01_KERNEL/` — write your coaching philosophy, values, and professional standards
+1. Start with `01_KERNEL/` — write your coaching philosophy, values, and profession standards
 2. Fill in `01_KERNEL/personal_dna.md` — your identity, niche, goals, fears, patterns
 3. Define your practice in `02_CONFIG/` — mission, niche, ideal client, service offerings
 4. Build your client portfolio in `03_DRIVERS/` — roster, capacity contract, rituals

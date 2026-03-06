@@ -305,7 +305,7 @@ Accept the override, document the rationale briefly in the output, and suggest a
 ### If situation exceeds coaching scope
 Trigger `boundary_check` logic and suggest a clear referral path. Categories:
 - **Therapy/clinical:** when client shows signs of mental health crisis, safeguarding concern, or trauma requiring clinical support
-- **Legal/financial:** when client situation requires qualified professional advice the coach cannot provide
+- **Legal/financial:** when client situation requires qualified Profession advice the coach cannot provide
 - **Specialist coaching:** when the issue is clearly outside the coach's stated niche
 
 ### If asked about a command not in command_reference.md
