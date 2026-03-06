@@ -24,7 +24,7 @@
 
 ## Identity
 - **Name:** [Your Name]
-- **Coaching Niche:** [Your niche — e.g., career coaching for professionals, executive coaching, leadership development] <!-- Derived from Practice OS §3 — update there first, then sync here. -->
+- **Coaching Niche:** [Your niche — e.g., career coaching for Professions, executive coaching, leadership development] <!-- Derived from Practice OS §3 — update there first, then sync here. -->
 - **Certifications / Training:** [Your credentials, training, or experience base — e.g., ICF ACC, 20+ years of industry experience, formal coaching diploma]
 - **Current Occupation:** [Your current role — e.g., full-time coach, coach alongside a day job, transitioning practitioner]
 - **Future Direction:** [Where you want to be in 12–24 months as a coaching practitioner]

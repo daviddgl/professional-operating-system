@@ -1,10 +1,10 @@
 #!/bin/bash
 # =============================================================================
-# Professional Operating System — Bundle Generator
+# Profession Operating System — Bundle Generator
 # =============================================================================
 #
 # PURPOSE:
-#   Compiles all Professional OS source files into a single compiled markdown
+#   Compiles all Profession OS source files into a single compiled markdown
 #   file for upload to AI platforms (ChatGPT, Gemini, Claude, etc.)
 #
 # USAGE:

@@ -1,6 +1,6 @@
 # Contact
 
-Professional Operating System was created by **David Garcia Lopez**.
+Profession Operating System was created by **David Garcia Lopez**.
 
 - Email: daviddgl@gmail.com
 - LinkedIn: https://www.linkedin.com/in/daviddgl/

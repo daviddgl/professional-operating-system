@@ -25,7 +25,7 @@ Independent career coaches make high-stakes decisions in isolation — whether t
 
 **Coach Operating System** is a structured collection of markdown files organized as an operating system:
 
-- **KERNEL** — Your portable coaching philosophy, decision protocols, and professional standards. Travels with you.
+- **KERNEL** — Your portable coaching philosophy, decision protocols, and profession standards. Travels with you.
 - **CONFIG** — Practice identity, mission, and strategy. Defines the environment you operate in.
 - **DRIVERS** — Client portfolio and client cards. Swapped when your roster changes.
 - **PROCESSES** — Current quarter's programme plan. Replaced quarterly.

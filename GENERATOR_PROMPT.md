@@ -4,7 +4,7 @@
 >
 > This file will contain a meta-wizard system prompt you paste into an AI tool.
 > The AI will interview you about your profession and generate all files for a
-> complete, spec-compliant Professional Operating System variant.
+> complete, spec-compliant Profession Operating System variant.
 >
 > **Current workaround:** Use the reference implementations in `references/` as
 > manual templates, adapting them following the vocabulary mapping in
