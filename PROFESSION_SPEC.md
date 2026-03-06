@@ -410,7 +410,11 @@ references/coach-os/
 [1–2 sentence description of what capability this skill gives the AI copilot]
 
 ## Activation
-[When should the AI load and apply this skill? e.g.: "Activate when generating any written content on behalf of the user — emails, posts, proposals, documents."]
+[Describe the four activation rules for this skill:
+- **Trigger (auto):** When should the AI auto-activate? e.g.: "Activate when the user requests written content on their behalf."
+- **Trigger (explicit):** What phrases explicitly invoke the skill? e.g.: "write as me", "use writing_voice"
+- **Acknowledgment:** What confirmation line should the AI append after output? e.g.: `_Writing Voice skill applied._`
+- **Bypass:** What phrases disable the skill for a specific request? e.g.: "skip writing voice", "generic style"]
 
 ## Generation
 [How this skill was created — either: "Generated via `skills-library/[skill-name]/generation_prompt.md`" or a custom description]
@@ -444,7 +448,7 @@ Each skill in the library provides a `generation_prompt.md` — a meta-prompt th
 
 When `bundle.sh` runs and a `skills/` directory exists with `.md` files, it produces a **second output file**: `bundle/skills_compiled.md`. This is uploaded to the AI platform alongside the primary OS bundle — two files total.
 
-If `skills/` is empty or absent, `bundle.sh` skips the skills pass silently.
+If `skills/` is empty or absent, `bundle.sh` skips the skills pass and prints a warning (`skills/ directory is empty — skipping skills bundle (stale bundle removed if present)`).
 
 ---
 

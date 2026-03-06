@@ -15,7 +15,13 @@ This skill trains the AI copilot to generate written content that matches your a
 
 ## Activation
 
-Activate when the user asks for written content to be produced on their behalf. Apply all voice rules and patterns in the Profile section to every piece of output. Do not default to generic AI writing patterns.
+**Trigger (auto):** Activate when the user asks for written content to be produced on their behalf — LinkedIn posts, client emails, proposals, session recaps, programme descriptions. Apply all voice rules and patterns in the Profile section. Do not default to generic AI writing patterns.
+
+**Trigger (explicit):** Also activate when the user says "write as me", "use my writing voice", or "use writing_voice". Both triggers produce identical behavior.
+
+**Acknowledgment:** After the output, append `_Writing Voice skill applied._`
+
+**Bypass:** If the user says "skip writing voice", "generic style", or "don't use my voice" — skip the skill and omit the acknowledgment line.
 
 ## Generation
 

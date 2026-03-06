@@ -37,4 +37,11 @@ Anyone who produces written content as part of their professional practice:
 
 ## Activation
 
-Once loaded, the skill activates automatically whenever you ask the AI to write content on your behalf. No command needed — just ask naturally ("write a LinkedIn post about...") and the AI applies your voice profile.
+The skill has two activation paths:
+
+- **Auto:** Ask naturally — "write a LinkedIn post about...", "draft an email to my client" — and the skill fires automatically
+- **Explicit:** Say "write as me", "use my writing voice", or "use writing_voice" to invoke it directly
+
+After each output, the AI appends `_Writing Voice skill applied._` so you always know when your voice profile is active.
+
+To bypass the skill for a specific output, include "skip writing voice", "generic style", or "don't use my voice" in your request.

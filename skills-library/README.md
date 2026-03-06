@@ -41,5 +41,5 @@ references/coach-os/skills/             ← Per-profession skill output
 1. Create a new directory: `skills-library/{skill-name}/`
 2. Add `README.md` — what the skill enables, who it's for, how to use it
 3. Add `generation_prompt.md` — the meta-prompt that produces the personalised skill file
-4. Add a blank `template.md` in each reference's `skills/` folder
+4. For each reference implementation, add a blank `{skill_output_filename}.md` file in its `skills/` folder (e.g., `references/coach-os/skills/writing_voice.md`)
 5. Update this README table

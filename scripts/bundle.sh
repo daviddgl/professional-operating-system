@@ -180,12 +180,12 @@ add_file_to_bundle "$REPO_ROOT/06_BOARDROOM/boardroom.md"
 # ── Skills (Extension System — sidecar, not a layer) ─────────────────────────
 SKILLS_DIR="$REPO_ROOT/skills"
 SKILLS_FILE_COUNT=0
+rm -f "$SKILLS_OUTPUT_FILE"  # always remove stale bundle before deciding whether to regenerate
 if [ -d "$SKILLS_DIR" ]; then
   skill_files=("$SKILLS_DIR"/*.md)
   if [ -e "${skill_files[0]}" ]; then
     echo ""
     echo -e "${BLUE}▸ skills/${NC}  (extension sidecar → ${SKILLS_OUTPUT_FILE})"
-    rm -f "$SKILLS_OUTPUT_FILE"
     {
       echo "# ${DISPLAY_NAME} Operating System (${ABBREVIATION}) — Skills Bundle"
       echo ""
@@ -211,8 +211,10 @@ if [ -d "$SKILLS_DIR" ]; then
       SKILLS_FILE_COUNT=$((SKILLS_FILE_COUNT + 1))
     done
   else
-    echo -e "  ${YELLOW}⚠  skills/ directory is empty — skipping skills bundle${NC}"
+    echo -e "  ${YELLOW}⚠  skills/ directory is empty — skipping skills bundle (stale bundle removed if present)${NC}"
   fi
+else
+  echo -e "  ${YELLOW}⚠  skills/ directory not found — skipping skills bundle (stale bundle removed if present)${NC}"
 fi
 
 # ── Summary ───────────────────────────────────────────────────────────────────
