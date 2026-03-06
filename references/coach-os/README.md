@@ -121,7 +121,7 @@ The upgrade command reads your current version from file headers, applies change
 
 ## How to Customize
 
-1. Start with `01_KERNEL/` — write your coaching philosophy, values, and profession standards
+1. Start with `01_KERNEL/` — write your coaching philosophy, values, and professional standards
 2. Fill in `01_KERNEL/personal_dna.md` — your identity, niche, goals, fears, patterns
 3. Define your practice in `02_CONFIG/` — mission, niche, ideal client, service offerings
 4. Build your client portfolio in `03_DRIVERS/` — roster, capacity contract, rituals
