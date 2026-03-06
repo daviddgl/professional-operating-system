@@ -11,8 +11,13 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 > Changes documented here will be included in the next version.
 
 ### Added
+- **§12 Extension System: Skills** — New spec section defining the skills plugin model: `skills/` sidecar directory, skill file format, skill types (Universal / Profession / Custom), the skills library structure, and bundle behaviour (`skills_compiled.md`)
+- **`/skills-library/`** — Framework-root shared library with universal skill templates; first skill: Writing Voice (includes `README.md` and `generation_prompt.md`)
+- **`scripts/bundle.sh`** — Skills compilation pass: produces `bundle/skills_compiled.md` when `skills/` directory contains files; updated deployment instructions, summary, and next steps output
 
 ### Changed
+- **PROFESSION_SPEC.md §13** (was §12) — Professions That Fit: renumbered due to insertion of §12 Extension System
+- **PROFESSION_SPEC.md §14** (was §13) — Reference Implementations: renumbered; added optional compliance check for `skills/` format
 
 ### Migration Steps
 
