@@ -42,7 +42,9 @@ The key idea: **separate the logic (how you decide) from the data (where you wor
 
 1. Read [PROFESSION_SPEC.md](PROFESSION_SPEC.md) — the structural rules every OS must follow
 2. Invoke the `create-profession` skill in your AI tool — it interviews you and generates all files for your profession
-3. Review, refine, validate against the spec, and publish
+3. Review, refine, and validate against the spec
+4. If you change any framework-level workflows or root-level files, update the root `CHANGELOG.md` under `[Unreleased]`
+5. Publish your new profession variant
 
 ---
 

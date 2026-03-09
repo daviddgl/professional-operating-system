@@ -21,11 +21,14 @@ It contains:
 ```
 /
 ├── PROFESSION_SPEC.md        # The spec — read this first
+├── .github/
+├─ ─ skills/
+├────── create-profession/       # Skill for generating new profession variants
 ├── scripts/
-│   └── bundle.sh             # Parameterized bundle generator
-└── references/
-    ├── coach-os/             # Career Coach OS (7-layer structure)
-    └── manager-os/           # Engineering Manager OS (7-layer structure)
+├────── bundle.sh                # Parameterized bundle generator
+├── references/
+├────── coach-os/                # Career Coach OS (7-layer structure)
+├────── manager-os/              # Engineering Manager OS (7-layer structure)
 ```
 
 ## Working with Reference Implementations
