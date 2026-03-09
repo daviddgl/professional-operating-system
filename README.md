@@ -41,10 +41,8 @@ The key idea: **separate the logic (how you decide) from the data (where you wor
 ### I want to CREATE a new profession variant
 
 1. Read [PROFESSION_SPEC.md](PROFESSION_SPEC.md) — the structural rules every OS must follow
-2. Paste [GENERATOR_PROMPT.md](GENERATOR_PROMPT.md) into your AI tool (coming soon)
-3. Upload both reference implementations as examples
-4. Follow the AI interview — it generates all files for your profession
-5. Review, refine, publish
+2. Invoke the `create-profession` skill in your AI tool — it interviews you and generates all files for your profession
+3. Review, refine, validate against the spec, and publish
 
 ---
 
@@ -73,7 +71,6 @@ See [PROFESSION_SPEC.md](PROFESSION_SPEC.md) for the full specification governin
 ```
 profession-operating-system/
 ├── PROFESSION_SPEC.md         # Framework specification (structural rules)
-├── GENERATOR_PROMPT.md        # Meta-wizard for creating new profession variants
 ├── README.md                  # This file
 ├── CONTRIBUTING.md            # How to contribute
 ├── LICENSE                    # MIT

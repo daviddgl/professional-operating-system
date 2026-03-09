@@ -5,14 +5,14 @@ Thanks for your interest in improving the Profession Operating System framework.
 ## Contribution Types
 
 ### 1. Improve the Framework Specification
-Improvements to `PROFESSION_SPEC.md` or `GENERATOR_PROMPT.md` — structural rules, vocabulary clarifications, missing edge cases.
+Improvements to `PROFESSION_SPEC.md` or `.github/skills/create-profession/` — structural rules, vocabulary clarifications, missing edge cases.
 
 ### 2. Improve a Reference Implementation
 Bug fixes, clarity improvements, or new commands for `references/manager-os/` or `references/coach-os/`. Both must stay compliant with `PROFESSION_SPEC.md`.
 
 ### 3. Submit a New Profession Variant
 Add a new fully-spec-compliant profession to `references/`. Requirements:
-- Built using `GENERATOR_PROMPT.md` (preferred) or hand-crafted
+- Built using the `create-profession` skill (preferred) or hand-crafted
 - Passes all checks in the `PROFESSION_SPEC.md §13` compliance checklist
 - Tested by at least one person who actually works in that profession
 - Includes a `SETUP_WIZARD.md`, `CHANGELOG.md`, and `bundle.conf`

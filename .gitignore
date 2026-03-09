@@ -5,7 +5,6 @@
 
 # Whitelist: root framework files
 !PROFESSION_SPEC.md
-!GENERATOR_PROMPT.md
 !README.md
 !CONTRIBUTING.md
 !CHANGELOG.md

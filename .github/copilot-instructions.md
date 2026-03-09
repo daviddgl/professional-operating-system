@@ -14,14 +14,13 @@ It contains:
 - **`scripts/bundle.sh`** — Parameterized bundle generator for any profession variant
 - **`references/coach-os/`** — Career Coach OS reference implementation
 - **`references/manager-os/`** — Engineering Manager OS reference implementation
-- **`GENERATOR_PROMPT.md`** — (Planned) Meta-wizard for generating new profession variants
+- **`.github/skills/create-profession/`** — AI skill for generating new profession variants
 
 ## Repository Structure
 
 ```
 /
 ├── PROFESSION_SPEC.md        # The spec — read this first
-├── GENERATOR_PROMPT.md       # AI meta-wizard for new variants (stub)
 ├── scripts/
 │   └── bundle.sh             # Parameterized bundle generator
 └── references/
