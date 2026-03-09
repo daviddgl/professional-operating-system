@@ -1,16 +1,40 @@
-# GENERATOR_PROMPT.md — Coming Soon
+# GENERATOR_PROMPT.md — Replaced by Skill
 
-> **Status:** Planned — targeted for v1.1
+> **Status:** Replaced by the project skill at `.github/skills/create-profession/`
 >
-> This file will contain a meta-wizard system prompt you paste into an AI tool.
-> The AI will interview you about your profession and generate all files for a
-> complete, spec-compliant Profession Operating System variant.
+> The profession-generation workflow now lives in a reusable skill instead of a
+> standalone prompt stub. Use the `create-profession` skill to generate a full,
+> spec-compliant Profession Operating System variant directly into
+> `references/<profession>-os/`.
 >
-> **Current workaround:** Use the reference implementations in `references/` as
-> manual templates, adapting them following the vocabulary mapping in
-> `PROFESSION_SPEC.md §11`.
+> The skill reads the framework spec and both reference implementations inline,
+> builds the vocabulary map, designs the decision model, generates the files,
+> and validates the result against the compliance checklist.
 
 ---
 
-See [PROFESSION_SPEC.md](PROFESSION_SPEC.md) Section 2 for the three-tier content model
-and Section 11 for the vocabulary reference table used during generation.
+## Use This Instead
+
+Use:
+- `.github/skills/create-profession/SKILL.md`
+
+Supporting skill references:
+- `.github/skills/create-profession/references/vocabulary-template.md`
+- `.github/skills/create-profession/references/compliance-checklist.md`
+- `.github/skills/create-profession/references/generation-sequence.md`
+
+## Expected Workflow
+
+1. Invoke the `create-profession` skill with the target profession.
+2. Confirm the profession fit and vocabulary map.
+3. Approve the proposed design choices.
+4. Generate the full variant directly under `references/<profession>-os/`.
+5. Validate the result against the framework checklist.
+
+## Framework Sources
+
+The skill uses these repository sources as canonical inputs:
+- `PROFESSION_SPEC.md`
+- `references/coach-os/`
+- `references/manager-os/`
+- `scripts/bundle.sh`
