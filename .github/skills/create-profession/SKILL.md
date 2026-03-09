@@ -103,18 +103,20 @@ Do not present these roles as disconnected essays. Use them to pressure-test dec
 
 ## Required Repository Context
 
-Before generating files, read these repository files inline from the workspace:
+Before generating files, read these repository files inline from the workspace.
 
-- `../../../PROFESSION_SPEC.md`
-- `../../../references/coach-os/SETUP_WIZARD.md`
-- `../../../references/coach-os/05_COMMANDS/command_reference.md`
-- `../../../references/coach-os/06_BOARDROOM/boardroom.md`
-- `../../../references/manager-os/SETUP_WIZARD.md`
-- `../../../references/manager-os/05_COMMANDS/command_reference.md`
-- `../../../references/manager-os/06_BOARDROOM/boardroom.md`
-- `../../../references/coach-os/01_KERNEL/coach_operating_system.md`
-- `../../../references/manager-os/01_KERNEL/manager_operating_system.md`
-- `../../../scripts/bundle.sh`
+**All paths are relative to the repository root** (the directory where the skill is invoked):
+
+- `PROFESSION_SPEC.md`
+- `references/coach-os/SETUP_WIZARD.md`
+- `references/coach-os/05_COMMANDS/command_reference.md`
+- `references/coach-os/06_BOARDROOM/boardroom.md`
+- `references/manager-os/SETUP_WIZARD.md`
+- `references/manager-os/05_COMMANDS/command_reference.md`
+- `references/manager-os/06_BOARDROOM/boardroom.md`
+- `references/coach-os/01_KERNEL/coach_operating_system.md`
+- `references/manager-os/01_KERNEL/manager_operating_system.md`
+- `scripts/bundle.sh`
 
 Use the two reference implementations to separate invariant structure from profession-specific vocabulary.
 
